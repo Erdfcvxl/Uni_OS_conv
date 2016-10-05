@@ -1,0 +1,70 @@
+.step {
+    background-color:#5bc0de;
+    display: inline-block;
+    margin: 5px 2px;
+    color: white;
+}
+
+.step-inside {
+    left: 7px;
+    top: 2px;
+    position: absolute;
+}
+
+.step-circle
+{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+
+.va {
+    display: flex;
+    align-items: center;
+}
+
+.result {
+    font-size: 30px;
+    position: relative;
+}
+
+.result small {
+    position: relative;
+    top: 5px;
+    font-size: 70%;
+}
+
+.form td {
+    text-align: center;
+}
+
+.page-header {
+    position: relative;
+}
+
+.credit {
+    position: absolute;
+    right: 0px;
+    bottom: -15px;
+    font-weight: 200;
+    line-height: 1;
+    color: #a9a9a9;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+
+@media(max-width: 768px){
+    .result {
+        font-size: 18px;
+        position: relative;
+    }
+
+    .form thead td {
+        font-size: 14px;
+    }
+}
